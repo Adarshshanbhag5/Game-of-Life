@@ -23,4 +23,4 @@ This game/app is made using [react](https://reactjs.org).
 
 # Links
 
-- Live site url:
+- Live site url:[https://quizzical-bhaskara-bd9175.netlify.app/](https://quizzical-bhaskara-bd9175.netlify.app/)
