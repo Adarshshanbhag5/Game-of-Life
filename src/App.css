@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.game__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.grid__cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(211, 211, 211);
+}
+
+.btn {
+  background-color: aqua;
+  outline: none;
+  border: none;
+  margin: 1rem;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .game__container {
+    flex-direction: column;
+  }
+}
